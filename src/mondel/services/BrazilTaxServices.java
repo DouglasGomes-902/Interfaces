@@ -1,6 +1,6 @@
 package mondel.services;
 
-public class BrazilTaxServices {
+public class BrazilTaxServices implements taxServices {
 
 	public double tax(double amount) {
 		
